@@ -1,3 +1,4 @@
 /.idea
 /cash
-/check-password/dist
+/check_password.egg-info
+/dist

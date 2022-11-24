@@ -249,7 +249,7 @@ class Generate:
             for i in range(4, length):
                 start_password += random.choice(
                     [i for i in f"{self.lowers}{self.uppers * upper}{self.nums * number}{self.symbols * symbol}"])
-            result_password = ''.join(random.sample(start_password, len(start_password))) 
+            result_password = ''.join(random.sample(start_password, len(start_password)))
 
             result.append("".join(result_password))
 
